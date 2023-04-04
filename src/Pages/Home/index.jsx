@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Header from "../../Components/Header/index";
 import Intro from "../../Components/Intro/index";
+import AboutUs from "../../Components/AboutUs";
 
 function Home({ pageTitle }) {
 
@@ -17,6 +18,7 @@ function Home({ pageTitle }) {
         <div className="home">
             <Header />
             <Intro />
+            <AboutUs />
         </div>
         // End Page Not Found
     );

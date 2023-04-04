@@ -1,9 +1,5 @@
 .page-header {
-  border-bottom: 1px solid #EEE;
-}
-
-.page-header nav {
-  background-color: #0d182e;
+  background-color: #3a5e5b;
 }
 
 .page-header nav .navbar-nav .nav-item .nav-link.joined {

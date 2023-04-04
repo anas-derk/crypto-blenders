@@ -1,0 +1,26 @@
+.about-us{
+    .container{
+        .about-us-image{
+            width: 300px;
+            max-width: 100%;
+        }
+        .info-box{
+            .section-name{
+                position: relative;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    bottom: -15px;
+                    width: 200px;
+                    height: 4px;
+                    background-color: var(--main-color);
+                }
+            }
+            .description{
+                line-height: 2;
+                text-align: justify;
+            }
+        }
+    }
+}

@@ -4,10 +4,12 @@
 
 :root {
   --main-color: #39a583;
+  --main-background-color: #0d182e;
 }
 
 body {
   height: 1000px;
+  background-color: var(--main-background-color);
 }
 
 a {
