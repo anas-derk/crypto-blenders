@@ -1,0 +1,20 @@
+.page-header{
+    border-bottom: 1px solid #EEE;
+    nav{
+        background-color: #0d182e;
+        .navbar-nav{
+            .nav-item{
+                .nav-link{
+                    &.joined{
+                        background-color: var(--main-color);
+                        border-radius: 30px;
+                        padding: {
+                            left: 15px;
+                            right: 15px;
+                        };
+                    }
+                }
+            }
+        }
+    }
+}

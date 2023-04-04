@@ -1,0 +1,14 @@
+.page-header {
+  border-bottom: 1px solid #EEE;
+}
+
+.page-header nav {
+  background-color: #0d182e;
+}
+
+.page-header nav .navbar-nav .nav-item .nav-link.joined {
+  background-color: var(--main-color);
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}

@@ -1,0 +1,37 @@
+.intro{
+    .container{
+        min-height: inherit;
+        .row{
+            min-height: inherit;
+            .summary{
+                .company-name{
+                    color: var(--main-color);
+                    width: fit-content;
+                    position: relative;
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        width: 320px;
+                        height: 5px;
+                        left: 0;
+                        bottom: -25px;
+                        background-color: var(--main-color);
+                    }
+                }
+                .description{
+                    font-size: 20px;
+                    line-height: 2;
+                    text-align: justify;
+                }
+                .join-link{
+                    background-color: var(--main-color);
+                    border-radius: 30px;
+                }
+            }
+            .intro-image{
+                width: 350px;
+                max-width: 100%;
+            }
+        }
+    }
+}

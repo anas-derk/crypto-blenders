@@ -1,0 +1,36 @@
+{
+    "routes": [
+        {
+            "id": 1,
+            "name": "Intro"
+        },
+        {
+            "id": 2,
+            "name": "About Me"
+        },
+        {
+            "id": 3,
+            "name": "Who Us"
+        },
+        {
+            "id": 4,
+            "name": "Services"
+        },
+        {
+            "id": 5,
+            "name": "Out Team"
+        },
+        {
+            "id": 6,
+            "name": "Partners"
+        },
+        {
+            "id": 7,
+            "name": "Contact"
+        },
+        {
+            "id": 8,
+            "name": "Join Crypto Blenders"
+        }
+    ]
+}
