@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Header from "../../Components/Header/index";
 import Intro from "../../Components/Intro/index";
 import AboutUs from "../../Components/AboutUs";
+import WhyUs from "../../Components/WhyUs";
 
 function Home({ pageTitle }) {
 
@@ -19,6 +20,7 @@ function Home({ pageTitle }) {
             <Header />
             <Intro />
             <AboutUs />
+            <WhyUs />
         </div>
         // End Page Not Found
     );
