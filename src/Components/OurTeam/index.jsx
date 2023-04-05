@@ -6,11 +6,8 @@ const OurTeam = () => {
     return (
         // Start Our Team Section
         <section className="our-team text-center text-white pt-5 pb-5" style={{ backgroundImage: `url(${ourTeamImage})` }}>
-            {/* <div className="overlay pt-5 pb-5">
-                
-            </div> */}
             <div className="container">
-                <h1 className="section-name">Our Team</h1>
+                <h2 className="section-name h1">Our Team</h2>
                 {/* Start Grid System */}
                 <div className="row">
                     {our_team_info_list.map(team_info =>

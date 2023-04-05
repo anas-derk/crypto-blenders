@@ -7,7 +7,7 @@ const Services = () => {
         <section className="services text-center text-white">
             {/* Start Container */}
             <div className="container">
-                <h1 className="section-name">Services</h1>
+                <h2 className="section-name h1">Services</h2>
                 {/* Start Grid System */}
                 <div className="row">
                     {services_data_list.map((serviceInfo) => (

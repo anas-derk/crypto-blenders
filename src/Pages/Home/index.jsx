@@ -6,6 +6,7 @@ import WhyUs from "../../Components/WhyUs";
 import Services from "../../Components/Services";
 import OurTeam from "../../Components/OurTeam";
 import Partners from "../../Components/Partners";
+import ContactUs from "../../Components/ContactUs";
 
 function Home({ pageTitle }) {
 
@@ -27,6 +28,7 @@ function Home({ pageTitle }) {
             <Services />
             <OurTeam />
             <Partners />
+            <ContactUs />
         </div>
         // End Page Not Found
     );
