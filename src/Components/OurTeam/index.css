@@ -1,0 +1,41 @@
+.our-team {
+  position: relative;
+  background-size: cover;
+}
+
+.our-team::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.our-team .container {
+  position: relative;
+  z-index: 1;
+}
+
+.our-team .container .team-info-box {
+  background-color: var(--main-background-color);
+  border-radius: 10px;
+  position: relative;
+}
+
+.our-team .container .team-info-box .member-image-box {
+  background-color: var(--main-color);
+  border-radius: inherit;
+  margin-bottom: 70px;
+}
+
+.our-team .container .team-info-box .member-image-box .member-image {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: -40px;
+}
+
+.our-team .container .team-info-box .member-info .member-name {
+  color: var(--main-color);
+}

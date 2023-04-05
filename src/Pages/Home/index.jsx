@@ -4,6 +4,7 @@ import Intro from "../../Components/Intro/index";
 import AboutUs from "../../Components/AboutUs";
 import WhyUs from "../../Components/WhyUs";
 import Services from "../../Components/Services";
+import OurTeam from "../../Components/OurTeam";
 
 function Home({ pageTitle }) {
 
@@ -23,6 +24,7 @@ function Home({ pageTitle }) {
             <AboutUs />
             <WhyUs />
             <Services />
+            <OurTeam />
         </div>
         // End Page Not Found
     );
