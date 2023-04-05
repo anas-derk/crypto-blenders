@@ -5,6 +5,7 @@ import AboutUs from "../../Components/AboutUs";
 import WhyUs from "../../Components/WhyUs";
 import Services from "../../Components/Services";
 import OurTeam from "../../Components/OurTeam";
+import Partners from "../../Components/Partners";
 
 function Home({ pageTitle }) {
 
@@ -25,6 +26,7 @@ function Home({ pageTitle }) {
             <WhyUs />
             <Services />
             <OurTeam />
+            <Partners />
         </div>
         // End Page Not Found
     );
