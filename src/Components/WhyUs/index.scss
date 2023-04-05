@@ -1,18 +1,4 @@
 .why-us{
-    .section-name{
-        position: relative;
-        margin-bottom: 60px;
-        &::after{
-            content: '';
-            position: absolute;
-            left: 50%;
-            bottom: -20px;
-            width: 300px;
-            transform: translateX(-150px);
-            height: 3px;
-            background-color: var(--main-color);
-        }
-    }
     .choose-reason{
         line-height: 1.7;
     }

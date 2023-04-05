@@ -6,15 +6,11 @@
         }
         .info-box{
             .section-name{
-                position: relative;
                 &::after{
-                    content: '';
-                    position: absolute;
                     left: 0;
                     bottom: -15px;
                     width: 200px;
-                    height: 4px;
-                    background-color: var(--main-color);
+                    transform: none;
                 }
             }
             .description{

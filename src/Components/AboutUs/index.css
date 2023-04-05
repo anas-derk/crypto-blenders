@@ -3,18 +3,11 @@
   max-width: 100%;
 }
 
-.about-us .container .info-box .section-name {
-  position: relative;
-}
-
 .about-us .container .info-box .section-name::after {
-  content: '';
-  position: absolute;
   left: 0;
   bottom: -15px;
   width: 200px;
-  height: 4px;
-  background-color: var(--main-color);
+  transform: none;
 }
 
 .about-us .container .info-box .description {

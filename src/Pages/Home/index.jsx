@@ -3,6 +3,7 @@ import Header from "../../Components/Header/index";
 import Intro from "../../Components/Intro/index";
 import AboutUs from "../../Components/AboutUs";
 import WhyUs from "../../Components/WhyUs";
+import Services from "../../Components/Services";
 
 function Home({ pageTitle }) {
 
@@ -21,6 +22,7 @@ function Home({ pageTitle }) {
             <Intro />
             <AboutUs />
             <WhyUs />
+            <Services />
         </div>
         // End Page Not Found
     );
