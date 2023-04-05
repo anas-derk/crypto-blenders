@@ -1,30 +1,31 @@
-*{
+* {
     font-family: 'Poppins', sans-serif;
 }
 
-:root{
+:root {
     --main-color: #39a583;
     --main-background-color: #0d182e;
 }
 
-body{
+body {
     background-color: var(--main-background-color);
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul{
+ul {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-.section-name{
+.section-name {
     position: relative;
     margin-bottom: 60px;
-    &::after{
+
+    &::after {
         content: '';
         position: absolute;
         left: 50%;
@@ -33,5 +34,26 @@ ul{
         transform: translateX(-150px);
         height: 3px;
         background-color: var(--main-color);
+    }
+}
+
+.contact-links-list {
+    .link-item {
+        background-color: var(--main-color);
+        padding: 10px 15px;
+        font-size: 20px;
+        border-radius: 5px;
+        .contact-link{
+            color: white;
+            &:hover {
+                color: #000;
+            }
+        }
+        &:hover{
+            background-color: #FFF;
+            .contact-link{
+                color: #000;
+            }
+        }
     }
 }

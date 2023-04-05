@@ -36,3 +36,26 @@ ul {
   height: 3px;
   background-color: var(--main-color);
 }
+
+.contact-links-list .link-item {
+  background-color: var(--main-color);
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.contact-links-list .link-item .contact-link {
+  color: white;
+}
+
+.contact-links-list .link-item .contact-link:hover {
+  color: #000;
+}
+
+.contact-links-list .link-item:hover {
+  background-color: #FFF;
+}
+
+.contact-links-list .link-item:hover .contact-link {
+  color: #000;
+}

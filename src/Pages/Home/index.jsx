@@ -7,6 +7,7 @@ import Services from "../../Components/Services";
 import OurTeam from "../../Components/OurTeam";
 import Partners from "../../Components/Partners";
 import ContactUs from "../../Components/ContactUs";
+import Footer from "../../Components/Footer";
 
 function Home({ pageTitle }) {
 
@@ -29,6 +30,7 @@ function Home({ pageTitle }) {
             <OurTeam />
             <Partners />
             <ContactUs />
+            <Footer />
         </div>
         // End Page Not Found
     );

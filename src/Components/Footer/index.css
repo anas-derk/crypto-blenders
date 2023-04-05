@@ -1,0 +1,7 @@
+.page-footer {
+  background-color: #000;
+}
+
+.page-footer .contact-links-list {
+  gap: 20px;
+}
