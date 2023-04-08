@@ -1,3 +1,39 @@
-.carousel .carousel-inner .partner-image {
+.slider {
+  position: relative;
+}
+
+.slider .control-arrow {
+  font-size: 60px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+.slider .control-arrow.left-arrow {
+  left: 0;
+  top: 50%;
+}
+
+.slider .control-arrow.right-arrow {
+  right: 0;
+  top: 50%;
+}
+
+.slider .partner-images-list .partner-image-item .partner-image {
   width: 250px;
+  border-radius: 50%;
+  animation: partner-image-animation 1s ease-in-out forwards;
+}
+
+@keyframes partner-image-animation {
+  from {
+    transform: scale(0.5, 0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
 }

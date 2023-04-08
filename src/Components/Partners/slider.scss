@@ -1,7 +1,39 @@
-.carousel{
-    .carousel-inner{
-        .partner-image{
-            width: 250px;
+.slider{
+    position: relative;
+    .control-arrow{
+        font-size: 60px;
+        background-color: var(--main-color);
+        border-radius: 50%;
+        cursor: pointer;
+        position: absolute;
+        transform: translateY(-50%);
+        &.left-arrow{
+            left: 0;
+            top: 50%;
         }
+        &.right-arrow {
+            right: 0;
+            top: 50%;
+        }
+    }
+    .partner-images-list{
+        .partner-image-item{
+            .partner-image{
+                width: 250px;
+                border-radius: 50%;
+                animation: partner-image-animation 1s ease-in-out forwards;
+            }
+        }
+    }
+}
+
+@keyframes partner-image-animation {
+    from {
+        transform: scale(.5, .5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1, 1);
+        opacity: 1;
     }
 }

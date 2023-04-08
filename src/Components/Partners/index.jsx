@@ -8,6 +8,7 @@ import partner7Image from "../../Assets/Images/partner7.jpg";
 import partner8Image from "../../Assets/Images/partner8.jpg";
 import partner9Image from "../../Assets/Images/partner9.jpg";
 import Slider from "./slider";
+import "./index.min.css";
 
 const Partners = () => {
     const partnersImagesURLs = [
@@ -24,8 +25,12 @@ const Partners = () => {
     return (
         // Start Partners Section
         <section className="partners pt-5 pb-5" id="partners">
-            <h2 className="section-name text-white text-center h1">Partners</h2>
-            <Slider partnersImagesURLs={partnersImagesURLs} />
+            {/* Start Container */}
+            <div className="container">
+                <h2 className="section-name text-white text-center h1">Partners</h2>
+                <Slider partnersImagesURLs={partnersImagesURLs} />
+            </div>
+            {/* End Container */}
         </section>
         // End Partners Section
     );
