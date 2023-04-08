@@ -37,6 +37,10 @@ ul {
   background-color: var(--main-color);
 }
 
+.contact-links-list {
+  gap: 20px;
+}
+
 .contact-links-list .link-item {
   background-color: var(--main-color);
   padding: 10px 15px;

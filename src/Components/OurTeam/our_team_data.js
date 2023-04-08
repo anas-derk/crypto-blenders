@@ -6,6 +6,9 @@ import member5Image from "../../Assets/Images/member5.jpeg";
 import member6Image from "../../Assets/Images/member6.jpeg";
 import member7Image from "../../Assets/Images/member7.jpeg";
 import member8Image from "../../Assets/Images/member8.jpeg";
+import { FaTelegramPlane } from "react-icons/fa";
+import { RxTwitterLogo } from "react-icons/rx";
+import { BsInstagram } from "react-icons/bs";
 
 const our_team_info_list = [
     {
@@ -18,6 +21,11 @@ const our_team_info_list = [
             "https://twitter.com/Gue7ara1",
             "https://instagram.com/gue7ara",
         ],
+        contactLinksIcons: [
+            <FaTelegramPlane />,
+            <RxTwitterLogo />,
+            <BsInstagram />,
+        ],
     },
     {
         id: 2,
@@ -29,6 +37,11 @@ const our_team_info_list = [
             "https://twitter.com/ali__maarouf",
             "https://instagram.com/ali__ma3rouf",
         ],
+        contactLinksIcons: [
+            <FaTelegramPlane />,
+            <RxTwitterLogo />,
+            <BsInstagram />,
+        ],
     },
     {
         id: 3,
@@ -37,6 +50,9 @@ const our_team_info_list = [
         memberSpecialist: "CFO",
         memberContactLinks: [
             "https://t.me/Emad11mu",
+        ],
+        contactLinksIcons: [
+            <FaTelegramPlane />,
         ],
     },
     {
@@ -47,6 +63,9 @@ const our_team_info_list = [
         memberContactLinks: [
             "https://t.me/Faresjabbour",
         ],
+        contactLinksIcons: [
+            <FaTelegramPlane />,
+        ],
     },
     {
         id: 5,
@@ -55,6 +74,9 @@ const our_team_info_list = [
         memberSpecialist: "CRYPTO ANALYST",
         memberContactLinks: [
             "https://t.me/Dr_1Hassan",
+        ],
+        contactLinksIcons: [
+            <FaTelegramPlane />,
         ],
     },
     {
@@ -65,6 +87,10 @@ const our_team_info_list = [
         memberContactLinks: [
             "https://t.me/Yazansh963",
             "https://twitter.com/YazanShaaban2",
+        ],
+        contactLinksIcons: [
+            <FaTelegramPlane />,
+            <RxTwitterLogo />,
         ],
     },
     {
@@ -77,6 +103,11 @@ const our_team_info_list = [
             "https://twitter.com/Mohammed6724558?t=1uX-EvtyQJnmj9WzDZK5Eg&s=09",
             "https://instagram.com/mohammed_dibeh_880",
         ],
+        contactLinksIcons: [
+            <FaTelegramPlane />,
+            <RxTwitterLogo />,
+            <BsInstagram />,
+        ],
     },
     {
         id: 8,
@@ -85,6 +116,9 @@ const our_team_info_list = [
         memberSpecialist: "GRAPHIC DESIGNER",
         memberContactLinks: [
             "https://t.me/Larasop",
+        ],
+        contactLinksIcons: [
+            <FaTelegramPlane />,
         ],
     },
 ];

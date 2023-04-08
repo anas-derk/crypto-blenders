@@ -20,11 +20,11 @@ const OurTeam = () => {
                                 <div className="member-info">
                                     <h4 className="member-name fw-bold">{team_info.memberName}</h4>
                                     <p className="member-specialist mb-3 mt-3">{team_info.memberSpecialist}</p>
-                                    <ul className="member-contact-links-list d-flex justify-content-center">
+                                    <ul className="contact-links-list d-flex justify-content-center">
                                         {team_info.memberContactLinks.map((link, linkIndex) => (
-                                            <li className="" key={linkIndex}>
-                                                <a href={link}>
-                                                    aaa
+                                            <li className="link-item" key={linkIndex}>
+                                                <a href={link} className="contact-link" target="_blank">
+                                                    {team_info.contactLinksIcons[linkIndex]}
                                                 </a>
                                             </li>
                                         ))}

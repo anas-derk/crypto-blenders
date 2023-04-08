@@ -11,18 +11,18 @@ const Footer = () => {
                 {/* Start Contact Links List */}
                 <ul className="contact-links-list d-flex justify-content-center mb-4">
                     <li className="link-item">
-                        <a href="https://t.me/CryptoBlenders" className="contact-link">
+                        <a href="https://t.me/CryptoBlenders" className="contact-link" target="_blank">
                             <FaTelegramPlane />
                         </a>
                     </li>
                     <li className="link-item">
-                        <a href="https://instagram.com/crypto_blenders" className="contact-link">
-                            <BsInstagram />
+                        <a href="https://twitter.com/CryptoBlenders" className="contact-link" target="_blank">
+                            <RxTwitterLogo />
                         </a>
                     </li>
                     <li className="link-item">
-                        <a href="https://twitter.com/CryptoBlenders" className="contact-link">
-                            <RxTwitterLogo />
+                        <a href="https://instagram.com/crypto_blenders" className="contact-link" target="_blank">
+                            <BsInstagram />
                         </a>
                     </li>
                 </ul>

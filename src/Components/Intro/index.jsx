@@ -18,7 +18,7 @@ const Intro = () => {
                             <p className="description mb-5">
                                 Master the art of virality and boost your crypto project's community. Discuss about cryptocurrencies. Join our AMA sessions and other events.
                             </p>
-                            <a href="#" className="join-link text-white p-3">Join Our Community</a>
+                            <a href="https://t.me/CryptoBlenders" className="join-link text-white p-3">Join Our Community</a>
                         </div>
                     </div>
                     {/* End Column */}

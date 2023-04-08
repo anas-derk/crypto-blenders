@@ -4,7 +4,7 @@ import "./index.min.css";
 const Services = () => {
     return (
         // Start Services Section
-        <section className="services text-center text-white" id="services">
+        <section className="services text-center text-white pt-5" id="services">
             {/* Start Container */}
             <div className="container">
                 <h2 className="section-name h1">Services</h2>

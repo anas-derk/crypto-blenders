@@ -20,12 +20,14 @@ const Header = () => {
                         <ul className="navbar-nav">
                             {header_data.routes.map((route, index) => (
                                 <li className="nav-item" key={route.id}>
-                                    <HashLink
-                                        className={`nav-link text-white ${index === header_data.routes.length - 1 ? 'joined' : ''}`}
-                                        to={route.id}
-                                        smooth
-                                    >{route.name}
-                                    </HashLink>
+                                    {index !== header_data.routes.length - 1 ?
+                                        <HashLink
+                                            className="nav-link text-white"
+                                            to={route.id}
+                                            smooth
+                                        >{route.name}</HashLink> :
+                                        <a href={route.id} target="_blank" className="joined nav-link text-white">{ route.name }</a>
+                                    }
                                 </li>
                             ))}
                         </ul>
