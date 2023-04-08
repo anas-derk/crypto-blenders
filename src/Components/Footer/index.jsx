@@ -5,7 +5,7 @@ import { RxTwitterLogo } from "react-icons/rx";
 
 const Footer = () => {
     return (
-        <footer className="page-footer pt-5 pb-5 text-center">
+        <footer className="page-footer pt-5 pb-5 text-center" id="footer">
             {/* Start Container */}
             <div className="container">
                 {/* Start Contact Links List */}
