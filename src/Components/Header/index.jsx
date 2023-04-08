@@ -1,6 +1,7 @@
 import header_data from "./header_data.json";
 import logo from "../../Assets/Images/logo.png";
 import "./index.min.css";
+import { HashLink } from "react-router-hash-link";
 
 const Header = () => {
     return (
@@ -19,7 +20,12 @@ const Header = () => {
                         <ul className="navbar-nav">
                             {header_data.routes.map((route, index) => (
                                 <li className="nav-item" key={route.id}>
-                                    <a className={`nav-link text-white ${index === header_data.routes.length - 1 ? 'joined' : ''}`} href="#">{route.name}</a>
+                                    <HashLink
+                                        className={`nav-link text-white ${index === header_data.routes.length - 1 ? 'joined' : ''}`}
+                                        to={route.id}
+                                        smooth
+                                    >{route.name}
+                                    </HashLink>
                                 </li>
                             ))}
                         </ul>

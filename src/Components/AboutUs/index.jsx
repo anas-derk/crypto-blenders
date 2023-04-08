@@ -4,7 +4,7 @@ import "./index.min.css";
 const AboutUs = () => {
     return (
         // Start About Us Section
-        <section className="about-us text-white pt-5 pb-5">
+        <section className="about-us text-white pt-5 pb-5" id="about-us">
             {/* Start Container */}
             <div className="container">
                 {/* Start Grid System */}

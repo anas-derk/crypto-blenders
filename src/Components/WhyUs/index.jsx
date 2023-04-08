@@ -8,7 +8,7 @@ import "./index.min.css";
 const WhyUs = () => {
     return (
         // Start Why Us Section
-        <section className="why-us text-center text-white pt-5 pb-5">
+        <section className="why-us text-center text-white pt-5 pb-5" id="why-us">
             {/* Start Container */}
             <div className="container">
                 <h2 className="h1 section-name">Why Only Crypto Blenders ?</h2>

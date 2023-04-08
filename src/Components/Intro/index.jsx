@@ -5,7 +5,7 @@ import "./index.min.css";
 const Intro = () => {
     return (
         // Start Intro Section
-        <section className="intro text-white" style={{ backgroundImage: `url(${IntroImage2})` }}>
+        <section className="intro text-white" style={{ backgroundImage: `url(${IntroImage2})` }} id="intro">
             {/* Start Container */}
             <div className="container">
                 {/* Start Grid System */}

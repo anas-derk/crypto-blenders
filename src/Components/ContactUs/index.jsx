@@ -4,7 +4,7 @@ import contactUsImage1 from "../../Assets/Images/contactUs1.png";
 const ContactUs = () => {
     return (
         // Start Contact Us Section
-        <section className="contact-us pt-5 pb-5 text-center text-white">
+        <section className="contact-us pt-5 pb-5 text-center text-white" id="contact">
             {/* Start Container */}
             <div className="container">
                 <h2 className="section-name">Write Us Something</h2>

@@ -23,7 +23,7 @@ const Partners = () => {
     ];
     return (
         // Start Partners Section
-        <section className="partners pt-5 pb-5">
+        <section className="partners pt-5 pb-5" id="partners">
             <h2 className="section-name text-white text-center h1">Partners</h2>
             <Slider partnersImagesURLs={partnersImagesURLs} />
         </section>

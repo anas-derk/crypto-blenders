@@ -1,31 +1,31 @@
 {
     "routes": [
         {
-            "id": 1,
+            "id": "#intro",
             "name": "Intro"
         },
         {
-            "id": 2,
+            "id": "#about-us",
             "name": "About Me"
         },
         {
-            "id": 3,
-            "name": "Who Us"
+            "id": "#why-us",
+            "name": "Why Us"
         },
         {
-            "id": 4,
+            "id": "#services",
             "name": "Services"
         },
         {
-            "id": 5,
+            "id": "#our-team",
             "name": "Out Team"
         },
         {
-            "id": 6,
+            "id": "#partners",
             "name": "Partners"
         },
         {
-            "id": 7,
+            "id": "#contact",
             "name": "Contact"
         },
         {
