@@ -13,7 +13,7 @@ const OurTeam = () => {
                     {our_team_info_list.map(team_info =>
                         // Start Column
                         <div className="col-md-4" key={team_info.id}>
-                            <div className="team-info-box mb-5 pb-4">
+                            <div className="team-info-box mb-5 pb-4" data-aos="flip-right">
                                 <div className="member-image-box mx-auto pt-3">
                                     <img src={team_info.imageSrc} className="member-image" alt="member image !" />
                                 </div>

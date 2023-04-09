@@ -13,7 +13,7 @@ const Services = () => {
                     {services_data_list.map((serviceInfo) => (
                         /* Start Column */
                         <div className="col-md-4 col-sm-6" key={serviceInfo.id}>
-                            <div className="service-info-box pt-5 pb-5 mb-5">
+                            <div className="service-info-box pt-5 pb-5 mb-5" data-aos="flip-left">
                                 <span className="icon">{serviceInfo.icon}</span>
                                 <h5 className="service-name mt-4 mb-4">{serviceInfo.name}</h5>
                                 <a href={serviceInfo.link} className="btn btn-success" target="_blank">Order Now</a>

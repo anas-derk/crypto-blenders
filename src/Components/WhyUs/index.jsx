@@ -15,7 +15,7 @@ const WhyUs = () => {
                 {/* Start Grid System */}
                 <div className="row align-items-center">
                     {/* Start Column */}
-                    <div className="col-lg-6">
+                    <div className="col-lg-6" data-aos="fade-right" data-aos-offset="420">
                         <div className="images-box">
                             <img src={whyUsImage5} alt="Why Us Image 5" className="why-us-image5" />
                             <img src={whyUsImage2} alt="Why Us Image 4" className="why-us-image2" />
@@ -25,7 +25,7 @@ const WhyUs = () => {
                     </div>
                     {/* End Column */}
                     {/* Start Column */}
-                    <div className="col-lg-6">
+                    <div className="col-lg-6" data-aos="fade-left" data-aos-offset="420">
                         <h5 className="choose-reason mb-4">The reason why you have to choose Crypto Blenders as a service partner and also a quality service .</h5>
                         <img src={whyUsImage1} alt="Why Us Image 1" className="why-us-image1" />
                     </div>

@@ -11,7 +11,7 @@ const ContactUs = () => {
                 {/* Start Grid System */}
                 <div className="row align-items-center">
                     {/* Start Column */}
-                    <div className="col-lg-5">
+                    <div className="col-lg-5" data-aos="fade-right">
                         {/* Start Contact Us Images Box */}
                         <div className="contact-us-images-box">
                             <img src={contactUsImage1} alt="Contact Us Image 1 !" className="contact-us-image1" />
@@ -20,7 +20,7 @@ const ContactUs = () => {
                     </div>
                     {/* End Column */}
                     {/* Start Column */}
-                    <div className="col-lg-7">
+                    <div className="col-lg-7" data-aos="fade-left">
                         {/* Start Contact Us Box */}
                         <div className="contact-us-box p-4">
                             <h3 className="mb-4 text-left">Get In Touch</h3>

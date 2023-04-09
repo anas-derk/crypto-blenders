@@ -10,12 +10,12 @@ const AboutUs = () => {
                 {/* Start Grid System */}
                 <div className="row align-items-center">
                     {/* Start Column */}
-                    <div className="col-md-6 text-center">
+                    <div className="col-md-6 text-center" data-aos="fade-right" data-aos-offset="400">
                         <img src={AboutUsImage} alt="About Us Image" className="about-us-image" />
                     </div>
                     {/* End Column */}
                     {/* Start Column */}
-                    <div className="col-md-6">
+                    <div className="col-md-6" data-aos="fade-left" data-aos-offset="400">
                         <div className="info-box">
                             <h2 className="h1 section-name">About Us</h2>
                             <h6 className="fw-bold caption mt-5 mb-4">We are a group of experts in cryptocurrency in the Middle East.</h6>

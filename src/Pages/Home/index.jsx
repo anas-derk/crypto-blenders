@@ -11,6 +11,8 @@ import Footer from "../../Components/Footer";
 import { RxDoubleArrowDown, RxDoubleArrowUp } from "react-icons/rx";
 import "./index.min.css";
 import { HashLink } from "react-router-hash-link";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Home({ pageTitle }) {
 
@@ -43,6 +45,8 @@ function Home({ pageTitle }) {
         document.title = pageTitle;
 
         document.querySelector(".intro").style.minHeight = `calc(100vh - ${document.querySelector(".page-header").offsetHeight}px)`;
+
+        AOS.init();
 
     }, []);
 

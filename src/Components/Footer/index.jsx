@@ -9,7 +9,7 @@ const Footer = () => {
             {/* Start Container */}
             <div className="container">
                 {/* Start Contact Links List */}
-                <ul className="contact-links-list d-flex justify-content-center mb-4">
+                <ul className="contact-links-list d-flex justify-content-center mb-4" data-aos="flip-left">
                     <li className="link-item">
                         <a href="https://t.me/CryptoBlenders" className="contact-link" target="_blank">
                             <FaTelegramPlane />

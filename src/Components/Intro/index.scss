@@ -31,7 +31,18 @@
             .intro-image{
                 width: 350px;
                 max-width: 100%;
+                animation: bounce-out-down 4s ease-in-out infinite;
             }
         }
+    }
+}
+
+@keyframes bounce-out-down {
+    0% { transform: translateY(0); }
+    20% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(20px);
     }
 }
