@@ -2,6 +2,7 @@ import header_data from "./header_data.json";
 import logo from "../../Assets/Images/logo.png";
 import "./index.min.css";
 import { HashLink } from "react-router-hash-link";
+import { HiOutlineBars3 } from "react-icons/hi2";
 
 const Header = () => {
     return (
@@ -14,7 +15,7 @@ const Header = () => {
                         <span className="company-name text-white fw-bold">Crypto Blenders</span>
                     </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+                        <HiOutlineBars3 className="navbar-toggler-icon" />
                     </button>
                     <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul className="navbar-nav">

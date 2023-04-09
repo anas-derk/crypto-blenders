@@ -2,8 +2,24 @@
   min-height: inherit;
 }
 
+@media (max-width: 767px) {
+  .intro .container {
+    padding: 35px 0;
+    text-align: center;
+  }
+}
+
 .intro .container .row {
   min-height: inherit;
+}
+
+@media (max-width: 767px) {
+  .intro .container .row .summary {
+    margin-bottom: 50px;
+  }
+  .intro .container .row .summary h4 {
+    line-height: 2;
+  }
 }
 
 .intro .container .row .summary .company-name {
@@ -22,10 +38,28 @@
   background-color: var(--main-color);
 }
 
+@media (max-width: 767px) {
+  .intro .container .row .summary .company-name {
+    margin: auto;
+    margin-bottom: 30px !important;
+    padding: 10px;
+    border: 2px solid var(--main-color);
+  }
+  .intro .container .row .summary .company-name::after {
+    content: none;
+  }
+}
+
 .intro .container .row .summary .description {
   font-size: 20px;
   line-height: 2;
   text-align: justify;
+}
+
+@media (max-width: 767px) {
+  .intro .container .row .summary .description {
+    margin-bottom: 40px !important;
+  }
 }
 
 .intro .container .row .summary .join-link {

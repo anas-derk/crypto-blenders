@@ -1,34 +1,42 @@
 .why-us{
-    .choose-reason{
-        line-height: 1.7;
+    @media (max-width: 767px) {
+        padding-bottom: 0 !important;
     }
-    .why-us-image1{
-        width: 100%;
-        max-width: 100%;
-    }
-    .images-box{
-        position: relative;
-        .why-us-image2{
-            position: absolute;
-            left: 0;
+    .row {
+        @media (max-width: 767px) {
+            gap: 50px;
         }
-        .why-us-image3{
-            position: absolute;
-            height: 250px;
-            width: 250px;
-            right: 0;
-            top: 100px;
+        .choose-reason{
+            line-height: 1.7;
         }
-        .why-us-image4{
-            position: absolute;
-            left: -50px;
-            bottom: 0;
-        }
-        .why-us-image5{
-            width: 250px;
-            height: 500px;
+        .why-us-image1{
+            width: 100%;
             max-width: 100%;
-            max-height: 100%;
+        }
+        .images-box{
+            position: relative;
+            .why-us-image2{
+                position: absolute;
+                left: 0;
+            }
+            .why-us-image3{
+                position: absolute;
+                height: 250px;
+                width: 250px;
+                right: 0;
+                top: 100px;
+            }
+            .why-us-image4{
+                position: absolute;
+                left: -50px;
+                bottom: 0;
+            }
+            .why-us-image5{
+                width: 250px;
+                height: 500px;
+                max-width: 100%;
+                max-height: 100%;
+            }
         }
     }
 }

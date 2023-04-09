@@ -1,9 +1,19 @@
 .intro{
     .container{
         min-height: inherit;
+        @media (max-width: 767px) {
+            padding: 35px 0;
+            text-align: center;
+        }
         .row{
             min-height: inherit;
             .summary{
+                @media (max-width: 767px) {
+                    margin-bottom: 50px;
+                    h4{
+                        line-height: 2;
+                    }
+                }
                 .company-name{
                     color: var(--main-color);
                     width: fit-content;
@@ -17,11 +27,23 @@
                         bottom: -25px;
                         background-color: var(--main-color);
                     }
+                    @media (max-width: 767px) {
+                        margin: auto;
+                        margin-bottom: 30px !important;
+                        padding: 10px;
+                        border: 2px solid var(--main-color);
+                        &::after{
+                            content: none;
+                        }
+                    }
                 }
                 .description{
                     font-size: 20px;
                     line-height: 2;
                     text-align: justify;
+                    @media (max-width: 767px) {
+                        margin-bottom: 40px !important;
+                    }
                 }
                 .join-link{
                     background-color: var(--main-color);

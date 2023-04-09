@@ -1,6 +1,11 @@
 .page-header{
     background-color: #3a5e5b;
     nav{
+        .navbar-toggler{
+            border: 2px solid #EEE;
+            color: #FFF;
+            font-size: 20px;
+        }
         .navbar-nav{
             .nav-item{
                 .nav-link{
@@ -11,6 +16,18 @@
                             left: 15px;
                             right: 15px;
                         };
+                    }
+                }
+            }
+            @media (max-width: 1199px) {
+                text-align: center;
+                .nav-item{
+                    .nav-link{
+                        padding: 10px 0;
+                        &:hover{
+                            background-color: var(--main-color);
+                            border-radius: 5px;
+                        }
                     }
                 }
             }

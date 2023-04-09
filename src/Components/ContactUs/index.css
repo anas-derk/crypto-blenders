@@ -7,3 +7,9 @@
   min-height: 150px;
   resize: none;
 }
+
+@media (max-width: 767px) {
+  .contact-us .contact-us-box .contact-us-form .row {
+    gap: 25px;
+  }
+}

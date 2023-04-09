@@ -11,6 +11,11 @@
                 min-height: 150px;
                 resize: none;
             }
+            .row{
+                @media (max-width: 767px) {
+                    gap: 25px;
+                }
+            }
         }
     }
 }
